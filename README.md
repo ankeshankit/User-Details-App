@@ -63,11 +63,19 @@ lib/
 │
 └── main.dart
 
+## dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.6
+  shared_preferences: ^2.5.3
+  image_picker: ^1.1.2
+
+
 ## Installation
 
 Clone the project:
 
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/ankeshankit/User-Details-App/commit/9c27f1531186b80f7e5883fb76c273d516cfbfe7
 
 Go to the project:
 
@@ -99,6 +107,8 @@ The LocalStorageService saves the data using SharedPreferences.
 
 When the application starts again, the saved data is loaded
 from local storage and displayed in the form.
+
+
 
 ## Author
 
